@@ -32,34 +32,34 @@ const ProblemSection = () => {
   return (
     <section className="section-padding bg-background">
       <div className="container-custom">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Most Aesthetic Clinics Are{" "}
-            <span className="text-destructive">Leaving Money on the Table</span>
+        <div className="text-center mb-10">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            Most Practices Are{" "}
+            <span className="text-destructive">Missing Out on Patients</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            While you're focused on delivering exceptional patient care, your marketing is struggling to keep up. Sound familiar?
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+            You're amazing at patient care, but marketing feels like another full-time job. Sound familiar?
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
           {problems.map((problem, index) => {
             const IconComponent = problem.icon;
             return (
-              <Card key={index} className="p-8 hover-lift bg-white shadow-soft border-l-4 border-l-destructive">
-                <div className="flex items-start space-x-4">
+              <Card key={index} className="p-6 hover-lift bg-white shadow-soft border-l-4 border-l-destructive rounded-xl">
+                <div className="flex items-start space-x-3">
                   <div className="flex-shrink-0">
-                    <div className="w-3 h-3 bg-destructive rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-destructive rounded-full mt-2"></div>
                   </div>
                   <div className="flex-1">
-                    <div className="flex items-center mb-3">
-                      <IconComponent className="w-6 h-6 text-destructive mr-3" />
-                      <h3 className="text-xl font-bold text-foreground">{problem.title}</h3>
+                    <div className="flex items-center mb-2">
+                      <IconComponent className="w-5 h-5 text-destructive mr-2" />
+                      <h3 className="text-lg font-bold text-foreground">{problem.title}</h3>
                     </div>
-                    <p className="text-muted-foreground mb-3 leading-relaxed">
+                    <p className="text-muted-foreground mb-2 leading-relaxed text-sm">
                       {problem.description}
                     </p>
-                    <div className="text-sm font-semibold text-destructive">
+                    <div className="text-xs font-semibold text-destructive">
                       Impact: {problem.impact}
                     </div>
                   </div>
@@ -69,12 +69,12 @@ const ProblemSection = () => {
           })}
         </div>
         
-        <div className="text-center mt-12">
-          <p className="text-lg text-muted-foreground mb-2">
-            The result? Your competitors are growing while you're stuck.
+        <div className="text-center mt-8">
+          <p className="text-base text-muted-foreground mb-1">
+            Sound exhausting? There's a better way.
           </p>
-          <p className="text-xl font-semibold text-foreground">
-            It's time for a different approach.
+          <p className="text-lg font-semibold text-foreground">
+            Let AI handle the marketing while you focus on patients.
           </p>
         </div>
       </div>

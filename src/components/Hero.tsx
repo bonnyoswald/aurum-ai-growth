@@ -20,40 +20,41 @@ const Hero = () => {
       <div className="relative z-10 container-custom">
         <div className="max-w-4xl mx-auto text-center text-white">
           {/* Trust Badges */}
-          <div className="flex flex-wrap justify-center gap-4 mb-8 animate-fade-in">
-            <Badge variant="secondary" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+          <div className="flex flex-wrap justify-center gap-3 mb-6 animate-fade-in">
+            <Badge variant="secondary" className="bg-white/15 border-white/30 text-white hover:bg-white/25 rounded-full px-4 py-2">
               <Shield className="w-4 h-4 mr-2" />
               HIPAA Compliant
             </Badge>
-            <Badge variant="secondary" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+            <Badge variant="secondary" className="bg-white/15 border-white/30 text-white hover:bg-white/25 rounded-full px-4 py-2">
               <Award className="w-4 h-4 mr-2" />
-              Healthcare Marketing Specialists
+              Healthcare Specialists
             </Badge>
-            <Badge variant="secondary" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
+            <Badge variant="secondary" className="bg-white/15 border-white/30 text-white hover:bg-white/25 rounded-full px-4 py-2">
               <TrendingUp className="w-4 h-4 mr-2" />
-              Proven Results in 90 Days
+              Results in 90 Days
             </Badge>
           </div>
           
           {/* Main Headline */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight animate-slide-up">
-            AI-Powered Marketing That{" "}
-            <span className="text-accent">Fills Your Aesthetic Practice</span>
-            —While You Focus on Patients
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight animate-slide-up">
+            AI That Actually{" "}
+            <span className="text-accent">Fills Your Practice</span>
+            {" "}While You Focus on What You Love
           </h1>
           
           {/* Subheadline */}
-          <p className="text-xl md:text-2xl mb-8 leading-relaxed opacity-90 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Done-for-you content, automation, and ads that attract qualified patients 
-            and grow your revenue by <strong className="text-accent">30-50% in 90 days</strong>.
+          <p className="text-lg md:text-xl mb-6 leading-relaxed opacity-90 animate-fade-in max-w-3xl mx-auto" style={{ animationDelay: '0.2s' }}>
+            Smart marketing that works behind the scenes—attracting the right patients 
+            and growing your revenue by <strong className="text-accent">30-50% in 90 days</strong>, 
+            without the marketing headaches.
           </p>
           
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            <Button className="btn-hero shadow-glow">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center items-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
+            <Button className="btn-hero shadow-glow rounded-full px-8 py-3">
               Get Your Free Marketing Audit
             </Button>
-            <Button className="btn-secondary-hero">
+            <Button className="btn-secondary-hero rounded-full px-8 py-3">
               See How It Works
             </Button>
           </div>

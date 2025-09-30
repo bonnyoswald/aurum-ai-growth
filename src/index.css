@@ -10,23 +10,23 @@
     --background: 0 0% 100%;
     --foreground: 218 11% 15%;
     
-    /* Medical Professional Blue */
-    --primary: 200 58% 32%; /* #2C5F7C */
+    /* Medical Professional Blue - Warmer */
+    --primary: 200 45% 40%; /* Softer, more approachable blue */
     --primary-foreground: 0 0% 100%;
-    --primary-light: 200 45% 45%; /* Lighter variant */
-    --primary-dark: 200 70% 25%; /* Darker variant */
+    --primary-light: 200 35% 55%; /* Lighter variant */
+    --primary-dark: 200 55% 30%; /* Darker variant */
     
-    /* Healthcare Teal */
-    --secondary: 190 35% 45%; /* #4A90A4 */
+    /* Healthcare Teal - Warmer */
+    --secondary: 190 25% 50%; /* Less saturated, more natural */
     --secondary-foreground: 0 0% 100%;
-    --secondary-light: 190 35% 55%;
-    --secondary-dark: 190 45% 35%;
+    --secondary-light: 190 25% 60%;
+    --secondary-dark: 190 35% 40%;
     
-    /* Luxury Gold Accent */
-    --accent: 45 75% 52%; /* #D4AF37 */
+    /* Warm Gold Accent */
+    --accent: 42 78% 58%; /* Warmer, more inviting gold */
     --accent-foreground: 218 11% 15%;
-    --accent-light: 45 65% 62%;
-    --accent-dark: 45 85% 42%;
+    --accent-light: 42 68% 68%;
+    --accent-dark: 42 88% 48%;
     
     /* Neutral Palette */
     --muted: 210 40% 96%;
@@ -211,7 +211,7 @@
   }
   
   .section-padding {
-    @apply py-16 md:py-24;
+    @apply py-8 md:py-12;
   }
 }
 
