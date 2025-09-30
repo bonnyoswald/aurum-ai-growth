@@ -6,14 +6,14 @@ import heroImage from "@/assets/hero-clinic.jpg";
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Background Image with Overlay */}
+      {/* Background Image with Subtle Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
           src={heroImage} 
           alt="Modern aesthetic clinic with AI technology" 
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-secondary/60"></div>
+        <div className="absolute inset-0 bg-black/40"></div>
       </div>
       
       {/* Content */}
